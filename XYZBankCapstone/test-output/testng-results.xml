@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-08T15:37:33 IST" name="Default suite" finished-at="2023-09-08T15:37:57 IST" duration-ms="23887">
+    <groups>
+    </groups>
+    <test started-at="2023-09-08T15:37:33 IST" name="Default test" finished-at="2023-09-08T15:37:57 IST" duration-ms="23887">
+      <class name="com.Testcase.Test_01">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.Testcase.Test_01@4681c175]" started-at="2023-09-08T15:37:33 IST" name="launchApplication" finished-at="2023-09-08T15:37:38 IST" duration-ms="5264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="CustomerLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Testcase.Test_01@4681c175]" started-at="2023-09-08T15:37:39 IST" name="CustomerLogin" data-provider="getExcelData" finished-at="2023-09-08T15:37:50 IST" duration-ms="10410" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Harry Potter]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1000.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[500.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLogin -->
+        <test-method signature="ManagerLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Testcase.Test_01@4681c175]" started-at="2023-09-08T15:37:50 IST" name="ManagerLogin" data-provider="getManagerData" finished-at="2023-09-08T15:37:56 IST" depends-on-methods="com.Testcase.Test_01.CustomerLogin" duration-ms="6603" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shivendra]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pratap]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[23456.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Harry Potter]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Rupee]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Harry]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ManagerLogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.Testcase.Test_01@4681c175]" started-at="2023-09-08T15:37:56 IST" name="closeBrowser" finished-at="2023-09-08T15:37:57 IST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Testcase.Test_01 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

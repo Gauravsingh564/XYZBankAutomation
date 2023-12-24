@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.Base.Listener"/>
+  </listeners>
+  <test thread-count="5" name="DepositsValidations(failed)">
+    <classes>
+      <class name="com.Testcase.DepositValidation">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchApplication"/>
+          <include name="TC_01"/>
+          <include name="TC_02"/>
+          <include name="TC_03"/>
+          <include name="TC_04"/>
+        </methods>
+      </class> <!-- com.Testcase.DepositValidation -->
+    </classes>
+  </test> <!-- DepositsValidations(failed) -->
+  <test thread-count="5" name="WithdrawlsValidations(failed)">
+    <classes>
+      <class name="com.Testcase.WithdrawlValidation">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="TC04"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- com.Testcase.WithdrawlValidation -->
+    </classes>
+  </test> <!-- WithdrawlsValidations(failed) -->
+</suite> <!-- Failed suite [Suite] -->
